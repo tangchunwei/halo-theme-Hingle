@@ -32,6 +32,7 @@ body{
     font-weight: 1000;
     background: #f5f5d5;
     transition: margin .3s, background .3s;
+    font-family: lucida grande,lucida sans unicode,lucida,helvetica,hiragino sans gb,microsoft yahei,wenquanyi micro hei,sans-serif;
 }
 
 body:before{
