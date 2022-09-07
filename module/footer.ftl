@@ -35,7 +35,7 @@
           ⚡️
           <a href="/archives">归档</a>
           ⚡️
-          <a href="/link">友情链接</a>
+          <a href="/links">友情链接</a>
         </div>
 
         <div>
