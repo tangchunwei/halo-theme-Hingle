@@ -1,8 +1,8 @@
 # 配置详情请参考：https://docs.halo.run/zh/developer-guide/theme/config-files
-id: pedro_hingle
+id: danding_hingle
 name: Hingle
 author:
-  name: Pedro
+  name: danding
   website: https://dandingkeji.top
 description: 🎈 一个简洁大气，含夜间模式的 halo 博客主题
 logo: http://cdn.sep.cc/avatar/e2d1f9c5da125994d7bf02c691e3124a?s=256&d=identicon
