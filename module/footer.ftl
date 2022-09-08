@@ -29,7 +29,7 @@
 
         <!-- 自定义页脚 -->
         <div>
-          <a href="/categories">分类</a>
+          <a href="/categories">分类汇总</a>
           ⚡️
           <a href="/tags">标签</a>
           ⚡️
