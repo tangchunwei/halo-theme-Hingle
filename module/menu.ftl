@@ -1,4 +1,4 @@
-<@menuTag method="list">
+<@menuTag method="tree">
     <nav class="head-menu">
     <#--  ?sort_by('priority')：根据菜单的排序编号排序  -->
     <#list menus?sort_by('priority') as menu>    
