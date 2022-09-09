@@ -53,7 +53,11 @@
           👈👉
           <a href="/sitemap.html">网站地图(html)</a>
         </div>
-
+        
+         <div>
+          <span id="run_time"></span>
+        </div>
+        
         <!-- 自定义页脚 -->
         <div>© <span id="timeyear">${.now?string('yyyy')}</span> ${user.nickname!} <a href="https://beian.miit.gov.cn/"
             target="_blank">${settings.icp!}</a></div>
@@ -68,4 +72,24 @@
 <script>
   let config = JSON.stringify({ night: ${ settings.night ? c}, copyright: ${ settings.copyright ? c}});
   var hingle = new Paul_Hingle(config);
+</script>
+<!-- 站点运行时间 -->
+<script type="text/javascript">
+    function runtime(){
+        // 初始时间，日/月/年 时:分:秒
+        X = new Date( ${ settings.run_time ? "2019/01/01 8:32:00"});
+        Y = new Date();
+        T = (Y.getTime()-X.getTime());
+        M = 24*60*60*1000;
+        a = T/M;
+        A = Math.floor(a);
+        b = (a-A)*24;
+        B = Math.floor(b);
+        c = (b-B)*60;
+        C = Math.floor((b-B)*60);
+        D = Math.floor((c-C)*60);
+        //信息写入到DIV中
+        run_time.innerHTML = "本站愉快运行了: "+A+"天"+B+"小时"+C+"分"+D+"秒"
+    }
+    setInterval(runtime, 1000);
 </script>
