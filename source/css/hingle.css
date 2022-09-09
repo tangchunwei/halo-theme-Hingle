@@ -153,8 +153,8 @@ input, textarea, hr, blockquote{
 
 /* -- 站点运行时间 */
 .run-time {
-    color: #cce7f8;
-    font-size: 2.5rem;
+    color: #ce7f55;
+    font-size: 2rem;
     -webkit-animation: shining 0.5s alternate infinite;
     animation: shining 0.5s alternate infinite;
 }
