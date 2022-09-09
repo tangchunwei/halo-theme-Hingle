@@ -10,7 +10,7 @@ genernal:
     run_time:
       name: run_time
       label: '站点运行时间'
-      type: time
+      type: text
       placeholder: '在此填写站点运行时间'
     icp:
       name: icp
