@@ -7,6 +7,11 @@ genernal:
       label: '作者寄语'
       type: textarea
       placeholder: '可以插入作者自述、版权说明等内容，字符串格式，支持 HTML 内容。'
+    run_time:
+      name: run_time
+      label: '站点运行时间'
+      type: time
+      placeholder: '在此填写站点运行时间'
     icp:
       name: icp
       label: 'ICP 备案号'
