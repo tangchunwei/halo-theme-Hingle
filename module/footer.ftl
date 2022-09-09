@@ -77,7 +77,7 @@
 <script type="text/javascript">
     function runtime(){
         // 初始时间，日/月/年 时:分:秒
-        X = new Date( ${ settings.run_time ? "2019/01/01 8:32:00"});
+        X = new Date( ${ settings.run_time ? 2019/01/01 08:32:00});
         Y = new Date();
         T = (Y.getTime()-X.getTime());
         M = 24*60*60*1000;
