@@ -18,12 +18,6 @@
       border-radius: 50%;
     }
     <!-- 站点倒计时样式 -->
-    .run_time {
-      color: #cce7f8;
-      font-size: 2.5rem;
-      -webkit-animation: shining 0.5s alternate infinite;
-      animation: shining 0.5s alternate infinite;
-    }
     @-webkit-keyframes shining {
       from {
           text-shadow: 0 0 10px lightblue, 0 0 20px lightblue, 0 0 30px lightblue, 0 0 40px skyblue, 0 0 50px skyblue, 0 0 60px skyblue;
@@ -71,7 +65,13 @@
         </div>
         
          <div>
-          <span id="run_time" class="run_time"></span>
+          <span id="run_time" style={
+          color: #cce7f8;
+          font-size: 2.5rem;
+          -webkit-animation: shining 0.5s alternate infinite;
+          animation: shining 0.5s alternate infinite;
+          }>
+          </span>
         </div>
         
         <!-- 自定义页脚 -->
