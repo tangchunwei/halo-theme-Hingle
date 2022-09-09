@@ -55,7 +55,7 @@
         </div>
         
          <div>
-          <span id="run_time" class="run_time"></span>
+          <span id="run_time" class="run-time"></span>
         </div>
         
         <!-- 自定义页脚 -->
